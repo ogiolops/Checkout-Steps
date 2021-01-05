@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #d6d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background:white;
+    padding: 30px 120px;
+    border-radius: 15px;
+    width: 980px;
+}
+
+/*STEPS*/
+
+.steps{
+    display: flex;
+    color: #DFE7EC;
+    justify-content: space-between;
+    align-items: center;
+    color: #727171;
+}
+
+.steps div{
+    display: flex;
+}
+
+.steps h2{
+    color: #9DA4A6;
+}
+
+.radius{
+    margin-right: 10px;
+}
+
+.radius span{
+    width: 30px;
+    height: 30px;
+}
+
+.step span{
+    border-radius: 100%;
+    background: #d6d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+#line{
+    width: 90px;
+    border: 3px solid #5ab45a ;
+}
+
+#line-gray{
+    width: 90px;
+    border: 3px solid #d6d4d4 ;
+}
+
+.step h2{
+    padding: 5px;
+}
+
+.material-icons{
+    color: #5ab45a;
+    font-weight: bold;
+}
+
+.step h2{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.selected span{
+    background: #5ab45a ;
+    color: white;
+}
+
+/*Payment details*/
+
+.payment-details{
+    margin-top: 15px;
+    color: #606161;
+}
+
+.payment-details::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #606161;
+    margin-top: 15px;
+}
+
+fieldset{
+    border: none;
+}
+
+.form {
+    margin: 20px 30px;
+}
+
+.form h2{
+    color: #606161;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.input-form label{
+    display: block;
+    font-size: 13px;
+    color: #8E9596;
+    margin: 5px 0;
+}
+
+.input-form input{
+    border-radius: 5px;
+    height: 30px;
+    width: 350px;
+    border: 1px solid #d6d4d4;
+}
+
+/*Aceppted cards*/
+.credit-flex{
+    display: flex;
+}
+.card-number{
+    width: 240px;
+}
+
+.aceppted-cards{
+    margin-left: 120px;
+    width: 100px;
+}
+.aceppted-cards img{
+    width: 150px;
+    height: 30px;
+}
+
+/*card flex*/
+.card-flex{
+    display: flex;
+}
+.security-code input{
+    width: 150px;
+}
+
+.expiration-date{
+    margin-left: 5px;
+}
+
+.expiration-date input{
+    width: 95px;
+}
+
+input{
+    padding-left: 10px ;
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+    border-radius: 5px;
+    height: 35px;
+    background: #57af57;
+    padding: 10px;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+}
+
+button:hover{
+    background: #31f731 ;
+}
+
